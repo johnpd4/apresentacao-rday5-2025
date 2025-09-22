@@ -1,0 +1,95 @@
+\documentclass{2ssmeeting}
+\usepackage[alf]{abntex2cite}
+\usepackage{natbib} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% POR FAVOR, NÃO FAÇA MUDANÇAS NESSE PADRÃO QUE ACARRETEM  EM
+%% ALTERAÇÃO NA FORMATAÇÃO FINAL DO TEXTO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% POR FAVOR, ESCOLHA CONFORME O CASO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[brazil]{babel} % texto em português
+% \usepackage[english]{babel} % texto em inglês
+
+%\usepackage[latin1]{inputenc} % acentuação em Português ISO-8859-1
+\usepackage[utf8]{inputenc} % acentuação em Português UTF-8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% POR FAVOR, NÃO ALTERAR
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{indentfirst}
+\usepackage{amsmath, amsfonts, amssymb, amsthm}
+\usepackage{url}
+\usepackage{csquotes}
+\setlength{\parindent}{0em}
+% Ambientes pré-definidos
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TÍTULO E AUTORES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Aplicação e comparação dos Resultados de Krigagens Universais com Base no Modelo Espacial Clássico e um modelo de Redes Neurais}
+
+% Se necessário, você deve acrescentar ou remover autores no comando abaixo. Se os autores pertencerem a mesma instituição é possível colocar apenas uma vez a instituição.
+
+\author{
+    {\large Yuri Dessimon}\thanks{yuridessimon@gmail.com}\\ 
+    {\small \textit{Departamento de Estatística, Universidade Federal do Rio Grande do Sul}} \\
+    {\large Pedro D. John}\thanks{johnpd4@gmail.com}\\
+    {\small \textit{Departamento de Estatística, Universidade Federal do Rio Grande do Sul}}  \\
+    {\large Márcia H. Barbian}\thanks{mhbarbian@gmail.com}\\
+    {\small \textit{Programa de Pós-Graduação em Estatística, Universidade Federal do Rio Grande do Sul}}
+}
+\criartitulo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RESUMO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{1cm}
+
+\textbf{RESUMO}
+
+\vspace{1cm}
+
+Devido ao aumento da frequência e intensidade de eventos climáticos extremos, a necessidade de modelagem de dados climáticos tem se tornado cada vez mais relevante. Nesse contexto, modelos geoestatísticos são fundamentais para analisar e prever fenômenos meteorológicos. %que apresentam dependência espacial permitindo a modelagem de variáveis correlacionadas no espaço. 
+Além disso, com o crescimento do interesse por métodos de inteligência artificial, redes neurais têm sido aplicadas em problemas de estatística espacial. No entanto, muitas dessas abordagens não incorporam explicitamente a covariância espacial. Em Zhan e Datta \cite{zhan2024neural} os autores propuseram a NN-GLS, um método que integra redes neurais ao processo gaussiano tradicional, permitindo capturar tanto a estrutura não linear dos dados quanto há dependência espacial entre observações. %Além disso, para estimar os valores das variáveis em locais onde não há coleta de amostras precisamos utilizar krigagem, um método de interpolação  baseado no processo gaussiano. 
+O objetivo desse trabalho é comparar os resultados da krigagem universal do modelo linear clássico e compara-lo com os resultados da krigagem universal obtida por uma generalização não linear do modelo espacial. Para isso foram feitas 2 comparações distintas, uma usando dados simulados e outra utilizando dados da precipitação retirado os dados das XX estações de monitoramento automático do Instituto Nacional de Metereologia (INMET) no mês de fevereiro de 2025 do estado do Rio Grande do Sul. Com esses dados, foram montados 2 modelos espaciais, o modelo clássico feito em R com o pacotes gstat e o generalizado feito em Python com o módulo geospaNN.  Observamos que o modelo de NN-GLS teve resultados consistentemente melhores que o modelo linear espacial para a nossa simulação e dados reais, mostrando o poder e a utilidade desse tipo de modelo. 
+
+\vspace{3cm}
+
+%Metodologia alternativa: (caso a gente não consiga ter resultados eu escervi uma metodologia que aplica utiliza os dados do exemplo de PM2.5 do artigo)
+
+
+%Para isso foram feitas 2 comparações distintas, uma usando dados simulados e outra usando dados de PM 2.5 de dados dos Estados Unidos. Com esses dados, foram montados 2 modelos espaciais, o modelo clássico feito em R com o pacotes gstat e o generalizado feito em Python com o módulo geospaNN.
+
+\begin{thebibliography}{99}
+
+\bibitem{zhan2024neural}
+ZHAN, W.; DATTA, A. Neural networks for geospatial data. 
+\textit{Journal of the American Statistical Association}, p. 1--21, 20 maio 2024.
+
+\end{thebibliography}
+
+\vspace{1.5em}
+
+{\bf Palavras-chave:} Krigagem; Redes Neurais; Geoestatística; NN-GLS; Processo Gaussiano.
+
+\end{document}
+
+
+
+

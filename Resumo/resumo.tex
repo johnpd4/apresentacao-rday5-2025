@@ -1,0 +1,79 @@
+\documentclass{2ssmeeting}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% POR FAVOR, NÃO FAÇA MUDANÇAS NESSE PADRÃO QUE ACARRETEM  EM
+%% ALTERAÇÃO NA FORMATAÇÃO FINAL DO TEXTO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% POR FAVOR, ESCOLHA CONFORME O CASO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[brazil]{babel} % texto em português
+% \usepackage[english]{babel} % texto em inglês
+
+%\usepackage[latin1]{inputenc} % acentuação em Português ISO-8859-1
+\usepackage[utf8]{inputenc} % acentuação em Português UTF-8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% POR FAVOR, NÃO ALTERAR
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{indentfirst}
+\usepackage{amsmath, amsfonts, amssymb, amsthm}
+\usepackage{url}
+\usepackage{csquotes}
+\setlength{\parindent}{0em}
+% Ambientes pré-definidos
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TÍTULO E AUTORES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Aplicação de Krigagem Ordinária em Dados Meteorológicos do Rio Grande do Sul}
+
+% Se necessário, você deve acrescentar ou remover autores no comando abaixo. Se os autores pertencerem a mesma instituição é possível colocar apenas uma vez a instituição.
+
+\author{
+    {\large Yuri Dessimon}\thanks{yuridessimon@gmail.com}\\ 
+    {\small \textit{Departamento de Estatística, Universidade Federal do Rio Grande do Sul}} \\
+    {\large Pedro D. John}\thanks{johnpd4@gmail.com}\\
+    {\small \textit{Departamento de Estatística, Universidade Federal do Rio Grande do Sul}}  \\
+    {\large Márcia H. Barbian}\thanks{mhbarbian@gmail.com}\\
+    {\small \textit{Programa de Pós-Graduação em Estatística, Universidade Federal do Rio Grande do Sul}}
+}
+\criartitulo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RESUMO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{1cm}
+
+\textbf{RESUMO}
+
+\vspace{0.1cm}
+
+A estimativa da precipitação no Rio Grande do Sul, após o desastre climático de 2024, é essencial para identificar desvios em relação aos padrões históricos e subsidiar modelos de risco hidrometeorológico. Tal quantificação fornece suporte técnico-científico à formulação de políticas públicas voltadas à mitigação de impactos e à adaptação às mudanças climáticas. O objetivo desse trabalho é estimar a distribuição espacial da precipitação e temperatura no estado do Rio Grande do Sul no mês de fevereiro de 2025, para isso serão considerados dados meteorológicos coletados em 40 centros de monitoramento espalhados no  estado. Para a estimativa da precipitação e da temperatura, será utilizado o modelo geoestatístico clássico, tal que a variável de interesse \( Z(s) \) na localização \( s \in D \subset \mathbb{R}^2 \) é considerada como a realização de um processo estocástico, com média constante desconhecida \( \mu \) e estrutura de covariância dependente apenas da distância entre as observações. Sob essas condições, utiliza-se a krigagem ordinária, um estimador linear e não viciado. O trabalho foi realizado utilizando o software R, o modelo geoestatístico foi estimado através do pacote  gstat, para confecção dos mapas foi utilizado o pacote leaflet. Como resultado observou-se um padrão espacial com maiores valores de precipitação concentrados na porção leste do estado, enquanto as temperaturas mais elevadas são obervadas nas regiões oeste e noroeste. Essa configuração está em consonância com padrões climáticos regionais, nos quais a influência oceânica contribui para maior umidade no leste, enquanto o interior do estado apresenta maior continentalidade e, consequentemente, temperaturas mais elevadas. A estimação espacial dessas variáveis é de fundamental importância para o monitoramento climático, contribuindo para a identificação de áreas de risco, a formulação de estratégias de mitigação de impactos extremos e o planejamento de ações adaptativas frente às mudanças climáticas. Agradecemos à Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul (FAPERGS) pelo apoio financeiro, por meio do Projeto nº 24/2551-0002361-5, contemplado no Edital 06/2024 – Programa de Pesquisa e Desenvolvimento Voltado a Desastres Climáticos. Este suporte foi fundamental para a realização e o avanço desta pesquisa.
+
+\vspace{1.5em}
+\vspace{1.5em}
+\vspace{1.5em}
+
+
+{\bf Palavras-chave:} Krigagem; Geoestatística; Semivariograma.
+
+\end{document}
+
+
+
+

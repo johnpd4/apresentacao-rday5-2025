@@ -1,0 +1,69 @@
+% Full instructions available at:
+% https://github.com/elauksap/focus-beamertheme
+
+\documentclass{beamer}
+\usetheme{focus}
+
+\fontfamily{cmr}\selectfont
+
+\usepackage{ragged2e}
+\usepackage[brazilian]{babel}
+\usepackage{graphicx}
+\usepackage[flushleft]{threeparttable}
+\usepackage{tabularx}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{biblatex}
+\addbibresource{referencias.bib}
+
+
+\definecolor{main}{RGB}{128, 0, 0}
+\definecolor{background}{RGB}{255, 255, 255}
+
+\title{Comparação entre krigagem universal e NN-GLS em dados metereológicos brasileiro\\ $ $}
+%\subtitle{Subtitle}
+\author{\vspace{-1.5cm}Yuri Dessimon}
+\institute{\vspace{-1.5cm}  Orientadora: Márcia H. Barbian \\ Departamento de Estatística \\ Instituto de Matemática e Estatística \\ Universidade Federal do Rio Grande do Sul (UFRGS)}
+\date{\today}
+
+
+\begin{document}
+    \begin{frame}
+        \maketitle
+    \end{frame}
+
+    \begin{frame}{Agenda}
+	\tableofcontents
+    \end{frame}
+    
+    % \section{Início}
+    %\subsection{Contextualização}
+    %\subsection{Objetivo}
+
+    %\section{Referencial Teórico}
+    %\subsection{Principais autores estudados}
+    %\subsection{Conceitos e teorias relevantes}
+    %\subsection{Fundamentação da escolha do tema}
+
+    %\section{Metodologia}
+    %\subsection{Dados}
+    %\subsection{GNN}
+        
+%1
+\section{Introdução}
+\begin{frame}{Contextualização}
+\begin{itemize}\justifying
+    \vfill \item Condições meteorológicas extremas
+ são fenômenos raros que ocorrem em lugares e épocas específicas, como:
+    \begin{itemize}\justifying
+        \vfill \item Ondas de calor e frio
+        \vfill \item Secas e inundações
+        \vfill \item Tempestades severas
+    \vfill \end{itemize}
+    \vfill \item Tais eventos são definidos por sua baixa probabilidade de ocorrência segundo a distribuição histórica.
+    \vfill \item Em decorrência as mudanças climáticas a intensidade desses eventos tem aumentando.
+    \vfill \end{itemize}
+\end{frame}
+
+\end{document}
