@@ -1,0 +1,5 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'poster_2SS_RS.tex.blg'
+[68] biber:340> INFO - === Mon Sep 22, 2025, 16:34:41
+[199] Utils.pm:399> ERROR - Cannot find 'poster_2SS_RS.tex.bcf'!
+[199] Biber.pm:136> INFO - ERRORS: 1

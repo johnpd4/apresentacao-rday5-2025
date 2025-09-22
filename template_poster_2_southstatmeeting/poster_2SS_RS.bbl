@@ -1,0 +1,272 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{bagheri2018necessarily}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c252ba277c4e68ad88a58dc407db405c}{%
+           family={Bagheri\bibnamedelima Bodaghabadi},
+           familyi={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Tehran}%
+      }
+      \strng{namehash}{c252ba277c4e68ad88a58dc407db405c}
+      \strng{fullhash}{c252ba277c4e68ad88a58dc407db405c}
+      \strng{fullhashraw}{c252ba277c4e68ad88a58dc407db405c}
+      \strng{bibnamehash}{c252ba277c4e68ad88a58dc407db405c}
+      \strng{authorbibnamehash}{c252ba277c4e68ad88a58dc407db405c}
+      \strng{authornamehash}{c252ba277c4e68ad88a58dc407db405c}
+      \strng{authorfullhash}{c252ba277c4e68ad88a58dc407db405c}
+      \strng{authorfullhashraw}{c252ba277c4e68ad88a58dc407db405c}
+      \field{labelalpha}{Bag18}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Desert}
+      \field{number}{2}
+      \field{title}{Is it necessarily a normally distributed data for kriging? A case study: soil salinity map of Ghahab area, central Iran}
+      \field{volume}{23}
+      \field{year}{2018}
+      \field{pages}{284\bibrangedash 293}
+      \range{pages}{10}
+    \endentry
+    \entry{leaflet}{manual}{}{}
+      \name{author}{4}{}{%
+        {{hash=c94e860a0102157c3ad5932d1028762d}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod}}}%
+        {{hash=af1b370f466fc885a0ee42a7ac26f068}{%
+           family={Schloerke},
+           familyi={S\bibinitperiod},
+           given={Barret},
+           giveni={B\bibinitperiod}}}%
+        {{hash=28e9716ccec1bb35885af92076ae9e66}{%
+           family={Karambelkar},
+           familyi={K\bibinitperiod},
+           given={Bhaskar},
+           giveni={B\bibinitperiod}}}%
+        {{hash=25ce25b9d444076e0963bcf9fa3a6f92}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yihui},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a861438bb5480274a849f0d82225aeb}
+      \strng{fullhash}{7f249a0070e7cb287c223e5a5f9988d1}
+      \strng{fullhashraw}{7f249a0070e7cb287c223e5a5f9988d1}
+      \strng{bibnamehash}{1a861438bb5480274a849f0d82225aeb}
+      \strng{authorbibnamehash}{1a861438bb5480274a849f0d82225aeb}
+      \strng{authornamehash}{1a861438bb5480274a849f0d82225aeb}
+      \strng{authorfullhash}{7f249a0070e7cb287c223e5a5f9988d1}
+      \strng{authorfullhashraw}{7f249a0070e7cb287c223e5a5f9988d1}
+      \field{labelalpha}{Che+24}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 2.2.2}
+      \field{title}{leaflet: Create Interactive Web Maps with the JavaScript 'Leaflet' Library}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=leaflet
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=leaflet
+      \endverb
+    \endentry
+    \entry{cressie2015statistics}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=1d684a7b784094856b0f4832104839c4}{%
+           family={Cressie},
+           familyi={C\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{fullhash}{1d684a7b784094856b0f4832104839c4}
+      \strng{fullhashraw}{1d684a7b784094856b0f4832104839c4}
+      \strng{bibnamehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authorbibnamehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authornamehash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authorfullhash}{1d684a7b784094856b0f4832104839c4}
+      \strng{authorfullhashraw}{1d684a7b784094856b0f4832104839c4}
+      \field{labelalpha}{Cre15}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Statistics for spatial data}
+      \field{year}{2015}
+    \endentry
+    \entry{gstat2}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=110b82ed34e2211cf77da828180c7a39}{%
+           family={Gräler},
+           familyi={G\bibinitperiod},
+           given={Benedikt},
+           giveni={B\bibinitperiod}}}%
+        {{hash=422fc79d05d5bcdcc598a0a7c6f95159}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f18872e206f6c1b66661475bf1960a40}{%
+           family={Heuvelink},
+           familyi={H\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{fullhash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{fullhashraw}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{bibnamehash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{authorbibnamehash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{authornamehash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{authorfullhash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{authorfullhashraw}{fc47b9c57d194b5107abbcb3c676bd98}
+      \field{labelalpha}{GPH16}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{The R Journal}
+      \field{title}{Spatio-Temporal Interpolation using gstat}
+      \field{volume}{8}
+      \field{year}{2016}
+      \field{pages}{204\bibrangedash 218}
+      \range{pages}{15}
+      \verb{urlraw}
+      \verb https://journal.r-project.org/archive/2016/RJ-2016-014/index.html
+      \endverb
+      \verb{url}
+      \verb https://journal.r-project.org/archive/2016/RJ-2016-014/index.html
+      \endverb
+    \endentry
+    \entry{INMET_2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b5dade5c9c7508d376844f5eb2e022dc}{%
+           family={Meteorologia\bibnamedelima (INMET)},
+           familyi={M\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={Instituto\bibnamedelima Nacional},
+           giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5dade5c9c7508d376844f5eb2e022dc}
+      \strng{fullhash}{b5dade5c9c7508d376844f5eb2e022dc}
+      \strng{fullhashraw}{b5dade5c9c7508d376844f5eb2e022dc}
+      \strng{bibnamehash}{b5dade5c9c7508d376844f5eb2e022dc}
+      \strng{authorbibnamehash}{b5dade5c9c7508d376844f5eb2e022dc}
+      \strng{authornamehash}{b5dade5c9c7508d376844f5eb2e022dc}
+      \strng{authorfullhash}{b5dade5c9c7508d376844f5eb2e022dc}
+      \strng{authorfullhashraw}{b5dade5c9c7508d376844f5eb2e022dc}
+      \field{labelalpha}{Met25}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 16 mar. 2025}
+      \field{title}{Tabela de Estações Meteorológicas}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://tempo.inmet.gov.br/TabelaEstacoes/A001
+      \endverb
+      \verb{url}
+      \verb https://tempo.inmet.gov.br/TabelaEstacoes/A001
+      \endverb
+    \endentry
+    \entry{gstat1}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=797d1fc7f0ad969fbf49fbe339dc20d7}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{fullhash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{fullhashraw}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{bibnamehash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{authorbibnamehash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{authornamehash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{authorfullhash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{authorfullhashraw}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \field{labelalpha}{Peb04}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers & Geosciences}
+      \field{title}{Multivariable geostatistics in {S}: the gstat package}
+      \field{volume}{30}
+      \field{year}{2004}
+      \true{nocite}
+      \field{pages}{683\bibrangedash 691}
+      \range{pages}{9}
+    \endentry
+    \entry{R}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=dcdebb6b35bff7c0568bf8c50ef8626d}{%
+           family={{R Core Team}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Vienna, Austria}%
+      }
+      \list{organization}{1}{%
+        {R Foundation for Statistical Computing}%
+      }
+      \strng{namehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{fullhashraw}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{bibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorbibnamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authornamehash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhash}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \strng{authorfullhashraw}{dcdebb6b35bff7c0568bf8c50ef8626d}
+      \field{labelalpha}{R C24}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{R: A Language and Environment for Statistical Computing}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.R-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.R-project.org/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
