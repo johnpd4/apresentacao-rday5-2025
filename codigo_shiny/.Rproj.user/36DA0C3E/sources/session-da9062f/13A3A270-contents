@@ -1,0 +1,263 @@
+if(!require(pacman)){install.packages("pacman")}
+
+pacman::p_load(shiny, shinydashboard, bslib, leaflet, shinyWidgets, plotly)
+
+
+ui = dashboardPage(
+  
+  dashboardHeader(
+    title = "Meteorologia RS"
+  ), #dashboardHeader
+  
+  dashboardSidebar(
+    
+    sidebarMenu(
+      
+      menuItem("Gráfico da Chuva", 
+               tabName = "plot_chuva",
+               icon = icon("cloud-rain")),
+      menuItem("Controles Avançados",
+               tabName = "controles_avancados",
+               icon = icon("gear")),
+      menuItem("Informações",
+               tabName = "informacoes",
+               icon = icon("circle-info"))
+      
+    ) #sidebarMenu
+    
+  ), #dashboardSidebar
+  
+  dashboardBody(
+    
+    tags$head(tags$style(HTML('
+      .main-header .logo {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-weight: bold;
+        font-size: 24px;
+      }'))),
+    
+    tabItems(
+    
+      tabItem(tabName = "plot_chuva",
+            
+        fluidRow(
+                
+          box(width = 5,
+             
+            title = "Controles", solidHeader = TRUE, status = "primary",
+              
+            column(width = 6,
+            
+              selectInput("unidade_tempo",
+                          label = "Selecione a unidade de Tempo",
+                          choices = c("Dia" = "data_dia",
+                                      "Semana" = "data_semana",
+                                      "Mês" = "data_mes",
+                                      "Ano" = "data_ano"),
+                          selected = "Mês"),
+              
+              uiOutput("seletor_tempo"),
+              
+              uiOutput("seletor_tempo_inicio"),
+            
+            ), # column
+            
+            column(width = 6,
+            
+              selectInput("var_selecionada",
+                          label = "Selecione a variável de comparação",
+                          choices = c("Vento" = "vento",
+                                      "Temperatura" = "temp", "Umidade" = "umidade"),
+                          selected = "Vento"),
+              
+              selectInput("marker_mapa",
+                          label = "Selecione o tipo de marcador no Mapa",
+                          choices = c("Nenhum" = "nenhum", "Padrão" = "padrao", "Gráfico" = "grafico"),
+                          selected = "Padrão"),
+              
+              uiOutput("seletor_estacoes")
+            
+            ) # column
+            
+          ), # box
+          
+          box(width = 7,
+              
+            title = "Estatísticas Importantes", solidHeader = TRUE, status = "primary",
+              
+            fluidRow(
+              
+              column(width = 12,
+              
+                valueBox(textOutput("media_chuva"),
+                         "Chuva Média Dentre Todas Estações Meteorológicas",
+                         color = "blue",
+                         icon = icon("cloud-rain"),
+                         width = 4),
+                
+                valueBox(textOutput("media_umidade"),
+                         "Umidade Média Dentre Todas Estações Meteorológicas",
+                         color = "light-blue",
+                         icon = icon("water"),
+                         width = 4),
+                
+                valueBox(textOutput("maior_amp"),
+                         "Maior Amplitude Térmica Dentre Todas Estações Meteorológias",
+                         color = "purple",
+                         icon = icon("temperature-half"),
+                         width = 4)
+              
+              ), # column
+              
+              column(width = 12,
+              
+                valueBox(textOutput("media_temp"),
+                         "Temperatura Média Dentre Todas Estações Meteorológicas",
+                         color = "orange",
+                         icon = icon("temperature-half"),
+                         width = 4),
+                
+                valueBox(textOutput("media_vento"),
+                         "Velocidade Média do Vento Dentre Todas Estações Meteorológicas",
+                         color = "green",
+                         icon = icon("wind"),
+                         width = 4),
+                
+                valueBox(textOutput("maior_raj"),
+                         "Rajada Vento Mais Forte Dentre Todas Estações Meteorológicas",
+                         color = "maroon",
+                         icon = icon("wind"),
+                         width = 4)
+              
+              ), # column
+              
+            ) # fluidrow
+          
+          ), # box
+          
+          # box(width = 3,
+          #     
+          #     title = "Controles da Série Temporal", solidHeader = TRUE, status = "primary",
+          #     
+          #     uiOutput("seletor_tempo_final"),
+          #     
+          # )
+        
+        ), #fluidrow
+        
+        box(width = 7, 
+        
+          title = textOutput("nome_plot"), solidHeader = TRUE, status = "primary",
+            
+          uiOutput("plot_chuva")
+        
+        ),
+        
+        box(width = 5, 
+            
+            title = textOutput("nome_serie"), solidHeader = TRUE, status = "primary",
+            
+            plotlyOutput("plot_tempo")
+            
+        )
+        
+      ), #tabItem plot_chuva
+      
+      tabItem(tabName = "controles_avancados",
+        
+        fluidRow(
+          
+          box(width = 12,
+              
+            title = "Gráficos Avançado de Controle pra Chuva", solidHeader = TRUE, status = "primary",
+              
+            column(width = 3,
+                
+              plotOutput("plot_grade")
+            
+            ), # column
+            
+            column(width = 3,
+              
+              plotOutput("plot_krig_pred")
+              
+            ), # column
+            
+            column(width = 3,
+                   
+                   plotOutput("plot_krig_var")
+                   
+            ), # column
+            
+            column(width = 3,
+                   
+              plotlyOutput("hist")
+                   
+            ), # column
+          
+          ), # box
+          
+          column(width = 3),
+                   
+          box(width = 6,
+              
+              title = "Controles de Avançados pra Chuva", solidHeader = TRUE, status = "primary",
+              
+            column(width = 6,
+                
+              numericInput(inputId = "grade_tamanho",
+                           label = "Refinamento da Grade",
+                           value = 15000, min = 5000, max = 25000),
+              
+              selectInput(inputId = "angulo",
+                          label = "Ângulo Escolhido do Variograma",
+                          choices = c(0, 45, 90, 135),
+                          selected = 45),
+              
+              sliderInput(inputId = "psill",
+                          label = "Partial Sill do Variograma",
+                          value = 100, min = 0, max = 1000)
+            
+            ), # column
+            
+            column(width = 6,
+            
+              sliderInput(inputId = "range",
+                          label = "Range do Variograma",
+                          value = 100, min = 0, max = 1000),
+              
+              sliderInput(inputId = "nugget",
+                          label = "Tamanho do efeito Pepita",
+                          value = 0, min = 0, max = 1, step = 0.1),
+              
+              selectInput(inputId = "modelo_variograma",
+                          label = "Tipo de modelo do variograma",
+                          choices = c("Exp", "Sph", "Gau", "Mat"),
+                          selected = c("Exp", "Sph", "Gau", "Mat"),
+                          multiple = T),
+              
+              selectInput(inputId = "Var_hist",
+                          label = "Varíavel do histograma",
+                          choices = c("Chuva" = "chuva", "Vento" = "vento",
+                                      "Temperatura" = "temp", "Umidade" = "umidade"),
+                          selected = "Vento")
+            
+            ) # column
+          
+          ) # box
+              
+        ) # fluidRow
+        
+      ), #tabItem controles_avancados
+      
+      tabItem(tabName = "informacoes",
+              
+        h1("colocar aqui a descrição do que diabos é isso :)")
+              
+      ) #tabItem informacoes
+      
+    ) #tabItems
+    
+  ) #dashboardBody
+  
+)

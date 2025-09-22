@@ -1,0 +1,1125 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{R-leafsync}{manual}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a1ad1e92a97cefebf56a747a598f249b}{%
+           family={Appelhans},
+           familyi={A\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18b88648a7bd821e8d380d2193764c56}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Kenton},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{19fc811464e1d3ce4779a0c6b49f3a38}
+      \strng{fullhash}{19fc811464e1d3ce4779a0c6b49f3a38}
+      \strng{fullhashraw}{19fc811464e1d3ce4779a0c6b49f3a38}
+      \strng{bibnamehash}{19fc811464e1d3ce4779a0c6b49f3a38}
+      \strng{authorbibnamehash}{19fc811464e1d3ce4779a0c6b49f3a38}
+      \strng{authornamehash}{19fc811464e1d3ce4779a0c6b49f3a38}
+      \strng{authorfullhash}{19fc811464e1d3ce4779a0c6b49f3a38}
+      \strng{authorfullhashraw}{19fc811464e1d3ce4779a0c6b49f3a38}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.1.0}
+      \field{title}{leafsync: Small Multiples for Leaflet Web Maps}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/r-spatial/leafsync
+      \endverb
+      \verb{url}
+      \verb https://github.com/r-spatial/leafsync
+      \endverb
+    \endentry
+    \entry{R-leaflet.minicharts}{manual}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=bbf91f14b584d278c7b4ffdc40ce90d5}{%
+           family={Bachelier},
+           familyi={B\bibinitperiod},
+           given={Veronique},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea989d3c1c588e1b53aa778fbf33c1ff}{%
+           family={ZAWAM},
+           familyi={Z\bibinitperiod},
+           given={Jalal-Edine},
+           giveni={J\bibinithyphendelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed0c0c9a37e99841a055cbeb0214b1a7}{%
+           family={Thieurmel},
+           familyi={T\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=69b84e91b6d9251efe8556cc213d2b6a}{%
+           family={Guillem},
+           familyi={G\bibinitperiod},
+           given={Francois},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{469649d6a9a2baaacee20571a6fe22b4}
+      \strng{fullhash}{335e4e584dd61451c6238f584621db15}
+      \strng{fullhashraw}{335e4e584dd61451c6238f584621db15}
+      \strng{bibnamehash}{469649d6a9a2baaacee20571a6fe22b4}
+      \strng{authorbibnamehash}{469649d6a9a2baaacee20571a6fe22b4}
+      \strng{authornamehash}{469649d6a9a2baaacee20571a6fe22b4}
+      \strng{authorfullhash}{335e4e584dd61451c6238f584621db15}
+      \strng{authorfullhashraw}{335e4e584dd61451c6238f584621db15}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.6.2}
+      \field{title}{leaflet.minicharts: Mini Charts for Interactive Maps}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.32614/CRAN.package.leaflet.minicharts
+      \endverb
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/package=leaflet.minicharts
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/package=leaflet.minicharts
+      \endverb
+    \endentry
+    \entry{sp2013}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=ff64be8a6341d6fa6c289273e62d34e9}{%
+           family={Bivand},
+           familyi={B\bibinitperiod},
+           given={Roger\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=422fc79d05d5bcdcc598a0a7c6f95159}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=84b1554567e01a66ea1967198aa62c43}{%
+           family={Gomez-Rubio},
+           familyi={G\bibinithyphendelim R\bibinitperiod},
+           given={Virgilio},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer, NY}%
+      }
+      \strng{namehash}{412b295d40995d62f04c6bd8ac9d608b}
+      \strng{fullhash}{412b295d40995d62f04c6bd8ac9d608b}
+      \strng{fullhashraw}{412b295d40995d62f04c6bd8ac9d608b}
+      \strng{bibnamehash}{412b295d40995d62f04c6bd8ac9d608b}
+      \strng{authorbibnamehash}{412b295d40995d62f04c6bd8ac9d608b}
+      \strng{authornamehash}{412b295d40995d62f04c6bd8ac9d608b}
+      \strng{authorfullhash}{412b295d40995d62f04c6bd8ac9d608b}
+      \strng{authorfullhashraw}{412b295d40995d62f04c6bd8ac9d608b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Applied spatial data analysis with {R}, Second edition}
+      \field{year}{2013}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://asdar-book.org/
+      \endverb
+      \verb{url}
+      \verb https://asdar-book.org/
+      \endverb
+    \endentry
+    \entry{R-shiny}{manual}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=3ad4f9244dbfff3b38eeeec6d91fbd7d}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Winston},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c94e860a0102157c3ad5932d1028762d}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1f21e57d853466471e4fe8476b2e1f1}{%
+           family={Allaire},
+           familyi={A\bibinitperiod},
+           given={JJ},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c63711bd8fa68302eb02c665cf15d9ef}{%
+           family={Sievert},
+           familyi={S\bibinitperiod},
+           given={Carson},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af1b370f466fc885a0ee42a7ac26f068}{%
+           family={Schloerke},
+           familyi={S\bibinitperiod},
+           given={Barret},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25ce25b9d444076e0963bcf9fa3a6f92}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yihui},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be724c24a24555a4e7052dfe72f85e79}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ec1111ac0c875e804db9ca5a116c726}{%
+           family={McPherson},
+           familyi={M\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=313f7bbff8ef91faa4282fc50f414b45}{%
+           family={Dipert},
+           familyi={D\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=655f754eef2ca97f45fe94cc0cdd31d6}{%
+           family={Borges},
+           familyi={B\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4e6a81e5ff55ba85bd08bc7d45345e3b}
+      \strng{fullhash}{63b3bab4209163647c49b61a0afa440d}
+      \strng{fullhashraw}{63b3bab4209163647c49b61a0afa440d}
+      \strng{bibnamehash}{4e6a81e5ff55ba85bd08bc7d45345e3b}
+      \strng{authorbibnamehash}{4e6a81e5ff55ba85bd08bc7d45345e3b}
+      \strng{authornamehash}{4e6a81e5ff55ba85bd08bc7d45345e3b}
+      \strng{authorfullhash}{63b3bab4209163647c49b61a0afa440d}
+      \strng{authorfullhashraw}{63b3bab4209163647c49b61a0afa440d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 1.11.1}
+      \field{title}{shiny: Web Application Framework for R}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://shiny.posit.co/
+      \endverb
+      \verb{url}
+      \verb https://shiny.posit.co/
+      \endverb
+    \endentry
+    \entry{R-leaflet}{manual}{}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=c94e860a0102157c3ad5932d1028762d}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af1b370f466fc885a0ee42a7ac26f068}{%
+           family={Schloerke},
+           familyi={S\bibinitperiod},
+           given={Barret},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=28e9716ccec1bb35885af92076ae9e66}{%
+           family={Karambelkar},
+           familyi={K\bibinitperiod},
+           given={Bhaskar},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25ce25b9d444076e0963bcf9fa3a6f92}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yihui},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9df4f4652415e3de9df723c1877a7654}{%
+           family={Aden-Buie},
+           familyi={A\bibinithyphendelim B\bibinitperiod},
+           given={Garrick},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5735da3db636d80029652f942f6d8107}
+      \strng{fullhash}{a1b07cadea6d7695d1b88c20700611f5}
+      \strng{fullhashraw}{a1b07cadea6d7695d1b88c20700611f5}
+      \strng{bibnamehash}{5735da3db636d80029652f942f6d8107}
+      \strng{authorbibnamehash}{5735da3db636d80029652f942f6d8107}
+      \strng{authornamehash}{5735da3db636d80029652f942f6d8107}
+      \strng{authorfullhash}{a1b07cadea6d7695d1b88c20700611f5}
+      \strng{authorfullhashraw}{a1b07cadea6d7695d1b88c20700611f5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 2.2.3}
+      \field{title}{leaflet: Create Interactive Web Maps with the JavaScript Leaflet Library}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://rstudio.github.io/leaflet/
+      \endverb
+      \verb{url}
+      \verb https://rstudio.github.io/leaflet/
+      \endverb
+    \endentry
+    \entry{R-htmltools}{manual}{}{}
+      \name{author}{6}{ul=2}{%
+        {{un=0,uniquepart=base,hash=c94e860a0102157c3ad5932d1028762d}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Joe},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c63711bd8fa68302eb02c665cf15d9ef}{%
+           family={Sievert},
+           familyi={S\bibinitperiod},
+           given={Carson},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af1b370f466fc885a0ee42a7ac26f068}{%
+           family={Schloerke},
+           familyi={S\bibinitperiod},
+           given={Barret},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ad4f9244dbfff3b38eeeec6d91fbd7d}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Winston},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25ce25b9d444076e0963bcf9fa3a6f92}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Yihui},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be724c24a24555a4e7052dfe72f85e79}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d77702dc0e2a3ede062b20d83b4fa45d}
+      \strng{fullhash}{449c5cdbc99658fbf9d64a7064c30565}
+      \strng{fullhashraw}{449c5cdbc99658fbf9d64a7064c30565}
+      \strng{bibnamehash}{d77702dc0e2a3ede062b20d83b4fa45d}
+      \strng{authorbibnamehash}{d77702dc0e2a3ede062b20d83b4fa45d}
+      \strng{authornamehash}{d77702dc0e2a3ede062b20d83b4fa45d}
+      \strng{authorfullhash}{449c5cdbc99658fbf9d64a7064c30565}
+      \strng{authorfullhashraw}{449c5cdbc99658fbf9d64a7064c30565}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.5.8.1}
+      \field{title}{htmltools: Tools for HTML}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/rstudio/htmltools
+      \endverb
+      \verb{url}
+      \verb https://github.com/rstudio/htmltools
+      \endverb
+    \endentry
+    \entry{gstat2016}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=110b82ed34e2211cf77da828180c7a39}{%
+           family={Gräler},
+           familyi={G\bibinitperiod},
+           given={Benedikt},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=422fc79d05d5bcdcc598a0a7c6f95159}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=f18872e206f6c1b66661475bf1960a40}{%
+           family={Heuvelink},
+           familyi={H\bibinitperiod},
+           given={Gerard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{fullhash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{fullhashraw}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{bibnamehash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{authorbibnamehash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{authornamehash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{authorfullhash}{fc47b9c57d194b5107abbcb3c676bd98}
+      \strng{authorfullhashraw}{fc47b9c57d194b5107abbcb3c676bd98}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{The R Journal}
+      \field{title}{Spatio-Temporal Interpolation using gstat}
+      \field{volume}{8}
+      \field{year}{2016}
+      \true{nocite}
+      \field{pages}{204\bibrangedash 218}
+      \range{pages}{15}
+      \verb{urlraw}
+      \verb https://journal.r-project.org/archive/2016/RJ-2016-014/index.html
+      \endverb
+      \verb{url}
+      \verb https://journal.r-project.org/archive/2016/RJ-2016-014/index.html
+      \endverb
+    \endentry
+    \entry{R-rlang}{manual}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4caae9be043b32573c94b11203a4a2fe}{%
+           family={Henry},
+           familyi={H\bibinitperiod},
+           given={Lionel},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d0f6977ce2d043e298a59a1cd75b7ef}{%
+           family={Wickham},
+           familyi={W\bibinitperiod},
+           given={Hadley},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{79fe0f48be3066e1e20b6abd09694223}
+      \strng{fullhash}{79fe0f48be3066e1e20b6abd09694223}
+      \strng{fullhashraw}{79fe0f48be3066e1e20b6abd09694223}
+      \strng{bibnamehash}{79fe0f48be3066e1e20b6abd09694223}
+      \strng{authorbibnamehash}{79fe0f48be3066e1e20b6abd09694223}
+      \strng{authornamehash}{79fe0f48be3066e1e20b6abd09694223}
+      \strng{authorfullhash}{79fe0f48be3066e1e20b6abd09694223}
+      \strng{authorfullhashraw}{79fe0f48be3066e1e20b6abd09694223}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 1.1.6}
+      \field{title}{rlang: Functions for Base Types and Core R and Tidyverse Features}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://rlang.r-lib.org
+      \endverb
+      \verb{url}
+      \verb https://rlang.r-lib.org
+      \endverb
+    \endentry
+    \entry{R-terra}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b0a2427b5a45d44474b8316d0d9aad7}{%
+           family={Hijmans},
+           familyi={H\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b0a2427b5a45d44474b8316d0d9aad7}
+      \strng{fullhash}{9b0a2427b5a45d44474b8316d0d9aad7}
+      \strng{fullhashraw}{9b0a2427b5a45d44474b8316d0d9aad7}
+      \strng{bibnamehash}{9b0a2427b5a45d44474b8316d0d9aad7}
+      \strng{authorbibnamehash}{9b0a2427b5a45d44474b8316d0d9aad7}
+      \strng{authornamehash}{9b0a2427b5a45d44474b8316d0d9aad7}
+      \strng{authorfullhash}{9b0a2427b5a45d44474b8316d0d9aad7}
+      \strng{authorfullhashraw}{9b0a2427b5a45d44474b8316d0d9aad7}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 1.8-60}
+      \field{title}{terra: Spatial Data Analysis}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://rspatial.org/
+      \endverb
+      \verb{url}
+      \verb https://rspatial.org/
+      \endverb
+    \endentry
+    \entry{sf2018}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=422fc79d05d5bcdcc598a0a7c6f95159}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{fullhash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{fullhashraw}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{bibnamehash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{authorbibnamehash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{authornamehash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{authorfullhash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{authorfullhashraw}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{{The R Journal}}
+      \field{number}{1}
+      \field{title}{{Simple Features for R: Standardized Support for Spatial Vector Data}}
+      \field{volume}{10}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{439\bibrangedash 446}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.32614/RJ-2018-009
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.32614/RJ-2018-009
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.32614/RJ-2018-009
+      \endverb
+    \endentry
+    \entry{R-sf}{manual}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=422fc79d05d5bcdcc598a0a7c6f95159}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{fullhash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{fullhashraw}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{bibnamehash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{authorbibnamehash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{authornamehash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{authorfullhash}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \strng{authorfullhashraw}{422fc79d05d5bcdcc598a0a7c6f95159}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 1.0-21}
+      \field{title}{sf: Simple Features for R}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://r-spatial.github.io/sf/
+      \endverb
+      \verb{url}
+      \verb https://r-spatial.github.io/sf/
+      \endverb
+    \endentry
+    \entry{sf2023}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=422fc79d05d5bcdcc598a0a7c6f95159}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=a48f5d015a48190e796b22a334e99aa1}{%
+           family={Bivand},
+           familyi={B\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{publisher}{1}{%
+        {Chapman and Hall/CRC}%
+      }
+      \strng{namehash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{fullhash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{fullhashraw}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{bibnamehash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{authorbibnamehash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{authornamehash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{authorfullhash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{authorfullhashraw}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Spatial Data Science: With applications in R}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1201/9780429459016
+      \endverb
+      \verb{urlraw}
+      \verb https://r-spatial.org/book/
+      \endverb
+      \verb{url}
+      \verb https://r-spatial.org/book/
+      \endverb
+    \endentry
+    \entry{R-sp}{manual}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=422fc79d05d5bcdcc598a0a7c6f95159}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=a48f5d015a48190e796b22a334e99aa1}{%
+           family={Bivand},
+           familyi={B\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{fullhash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{fullhashraw}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{bibnamehash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{authorbibnamehash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{authornamehash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{authorfullhash}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \strng{authorfullhashraw}{e5c9b0e29ce47e92dc7eea4da88f5ba5}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 2.2-0}
+      \field{title}{sp: Classes and Methods for Spatial Data}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/edzer/sp/
+      \endverb
+      \verb{url}
+      \verb https://github.com/edzer/sp/
+      \endverb
+    \endentry
+    \entry{R-gstat}{manual}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=422fc79d05d5bcdcc598a0a7c6f95159}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer},
+           giveni={E\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=fae78dfcf50d2f97cb9873e1ec3f67e1}{%
+           family={Graeler},
+           familyi={G\bibinitperiod},
+           given={Benedikt},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38816a1089a60b3bcef194b9e129e153}
+      \strng{fullhash}{38816a1089a60b3bcef194b9e129e153}
+      \strng{fullhashraw}{38816a1089a60b3bcef194b9e129e153}
+      \strng{bibnamehash}{38816a1089a60b3bcef194b9e129e153}
+      \strng{authorbibnamehash}{38816a1089a60b3bcef194b9e129e153}
+      \strng{authornamehash}{38816a1089a60b3bcef194b9e129e153}
+      \strng{authorfullhash}{38816a1089a60b3bcef194b9e129e153}
+      \strng{authorfullhashraw}{38816a1089a60b3bcef194b9e129e153}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 2.1-4}
+      \field{title}{gstat: Spatial and Spatio-Temporal Geostatistical Modelling, Prediction and Simulation}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/r-spatial/gstat/
+      \endverb
+      \verb{url}
+      \verb https://github.com/r-spatial/gstat/
+      \endverb
+    \endentry
+    \entry{gstat2004}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=797d1fc7f0ad969fbf49fbe339dc20d7}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{fullhash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{fullhashraw}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{bibnamehash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{authorbibnamehash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{authornamehash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{authorfullhash}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \strng{authorfullhashraw}{797d1fc7f0ad969fbf49fbe339dc20d7}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers \& Geosciences}
+      \field{title}{Multivariable geostatistics in {S}: the gstat package}
+      \field{volume}{30}
+      \field{year}{2004}
+      \true{nocite}
+      \field{pages}{683\bibrangedash 691}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.cageo.2004.03.012
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.cageo.2004.03.012
+      \endverb
+    \endentry
+    \entry{sp2005}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=797d1fc7f0ad969fbf49fbe339dc20d7}{%
+           family={Pebesma},
+           familyi={P\bibinitperiod},
+           given={Edzer\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=a48f5d015a48190e796b22a334e99aa1}{%
+           family={Bivand},
+           familyi={B\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{459ac899a0436361daf1ad8ce6ddc23b}
+      \strng{fullhash}{459ac899a0436361daf1ad8ce6ddc23b}
+      \strng{fullhashraw}{459ac899a0436361daf1ad8ce6ddc23b}
+      \strng{bibnamehash}{459ac899a0436361daf1ad8ce6ddc23b}
+      \strng{authorbibnamehash}{459ac899a0436361daf1ad8ce6ddc23b}
+      \strng{authornamehash}{459ac899a0436361daf1ad8ce6ddc23b}
+      \strng{authorfullhash}{459ac899a0436361daf1ad8ce6ddc23b}
+      \strng{authorfullhashraw}{459ac899a0436361daf1ad8ce6ddc23b}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{R News}
+      \field{month}{11}
+      \field{number}{2}
+      \field{title}{Classes and methods for spatial data in {R}}
+      \field{volume}{5}
+      \field{year}{2005}
+      \true{nocite}
+      \field{pages}{9\bibrangedash 13}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://CRAN.R-project.org/doc/Rnews/
+      \endverb
+      \verb{url}
+      \verb https://CRAN.R-project.org/doc/Rnews/
+      \endverb
+    \endentry
+    \entry{R-shinyWidgets}{manual}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c57e6bfe4af6ae380a3f7eb99b513326}{%
+           family={Perrier},
+           familyi={P\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ef17209278dfedb9f705fc121130957}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Fanny},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=377734fed8923936080fff535843ae34}{%
+           family={Granjon},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b26e4444b67672b27e179bf631a33d9a}
+      \strng{fullhash}{b26e4444b67672b27e179bf631a33d9a}
+      \strng{fullhashraw}{b26e4444b67672b27e179bf631a33d9a}
+      \strng{bibnamehash}{b26e4444b67672b27e179bf631a33d9a}
+      \strng{authorbibnamehash}{b26e4444b67672b27e179bf631a33d9a}
+      \strng{authornamehash}{b26e4444b67672b27e179bf631a33d9a}
+      \strng{authorfullhash}{b26e4444b67672b27e179bf631a33d9a}
+      \strng{authorfullhashraw}{b26e4444b67672b27e179bf631a33d9a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 0.9.0}
+      \field{title}{shinyWidgets: Custom Inputs Widgets for Shiny}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/dreamRs/shinyWidgets
+      \endverb
+      \verb{url}
+      \verb https://github.com/dreamRs/shinyWidgets
+      \endverb
+    \endentry
+    \entry{plotly2020}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c63711bd8fa68302eb02c665cf15d9ef}{%
+           family={Sievert},
+           familyi={S\bibinitperiod},
+           given={Carson},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{c63711bd8fa68302eb02c665cf15d9ef}
+      \strng{fullhash}{c63711bd8fa68302eb02c665cf15d9ef}
+      \strng{fullhashraw}{c63711bd8fa68302eb02c665cf15d9ef}
+      \strng{bibnamehash}{c63711bd8fa68302eb02c665cf15d9ef}
+      \strng{authorbibnamehash}{c63711bd8fa68302eb02c665cf15d9ef}
+      \strng{authornamehash}{c63711bd8fa68302eb02c665cf15d9ef}
+      \strng{authorfullhash}{c63711bd8fa68302eb02c665cf15d9ef}
+      \strng{authorfullhashraw}{c63711bd8fa68302eb02c665cf15d9ef}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781138331457}
+      \field{title}{Interactive Web-Based Data Visualization with R, plotly, and shiny}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://plotly-r.com
+      \endverb
+      \verb{url}
+      \verb https://plotly-r.com
+      \endverb
+    \endentry
+    \entry{R-plotly}{manual}{}{}
+      \name{author}{7}{ul=1}{%
+        {{un=0,uniquepart=base,hash=c63711bd8fa68302eb02c665cf15d9ef}{%
+           family={Sievert},
+           familyi={S\bibinitperiod},
+           given={Carson},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95ff10b3bf1b53805bdc0d6073b65b61}{%
+           family={Parmer},
+           familyi={P\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4caa61c533bd1cebd515f3fcd3007de4}{%
+           family={Hocking},
+           familyi={H\bibinitperiod},
+           given={Toby},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e795e3a878455bdc19984e4db4e8439}{%
+           family={Chamberlain},
+           familyi={C\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1db1f0b5547d56e4d0007442a1f14a93}{%
+           family={Ram},
+           familyi={R\bibinitperiod},
+           given={Karthik},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ce45ff74e03fcad8d02ff9e6775ff69}{%
+           family={Corvellec},
+           familyi={C\bibinitperiod},
+           given={Marianne},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3f9293acd0542f4f285aef0b4d75ba7}{%
+           family={Despouy},
+           familyi={D\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ae612094a62e121e4d6cd71be40d15ce}
+      \strng{fullhash}{4441a06d608edcd4803d122945e73bda}
+      \strng{fullhashraw}{4441a06d608edcd4803d122945e73bda}
+      \strng{bibnamehash}{ae612094a62e121e4d6cd71be40d15ce}
+      \strng{authorbibnamehash}{ae612094a62e121e4d6cd71be40d15ce}
+      \strng{authornamehash}{ae612094a62e121e4d6cd71be40d15ce}
+      \strng{authorfullhash}{4441a06d608edcd4803d122945e73bda}
+      \strng{authorfullhashraw}{4441a06d608edcd4803d122945e73bda}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 4.11.0}
+      \field{title}{plotly: Create Interactive Web Graphics via plotly.js}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://plotly-r.com
+      \endverb
+      \verb{url}
+      \verb https://plotly-r.com
+      \endverb
+    \endentry
+    \entry{ggplot22016}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1d0f6977ce2d043e298a59a1cd75b7ef}{%
+           family={Wickham},
+           familyi={W\bibinitperiod},
+           given={Hadley},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag New York}%
+      }
+      \strng{namehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{fullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{fullhashraw}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{bibnamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authorbibnamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authornamehash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authorfullhash}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \strng{authorfullhashraw}{1d0f6977ce2d043e298a59a1cd75b7ef}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-24277-4}
+      \field{title}{ggplot2: Elegant Graphics for Data Analysis}
+      \field{year}{2016}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://ggplot2.tidyverse.org
+      \endverb
+      \verb{url}
+      \verb https://ggplot2.tidyverse.org
+      \endverb
+    \endentry
+    \entry{R-ggplot2}{manual}{}{}
+      \name{author}{10}{ul=2}{%
+        {{un=0,uniquepart=base,hash=1d0f6977ce2d043e298a59a1cd75b7ef}{%
+           family={Wickham},
+           familyi={W\bibinitperiod},
+           given={Hadley},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ad4f9244dbfff3b38eeeec6d91fbd7d}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Winston},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4caae9be043b32573c94b11203a4a2fe}{%
+           family={Henry},
+           familyi={H\bibinitperiod},
+           given={Lionel},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=baa847ed0a47fe330db451600329cf32}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima Lin},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc134fc26d52494111fa09f0a1546069}{%
+           family={Takahashi},
+           familyi={T\bibinitperiod},
+           given={Kohske},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=acc6b5a79d7cad33c02e41491584028f}{%
+           family={Wilke},
+           familyi={W\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff79890fd7a7f58816ee7360c25d812e}{%
+           family={Woo},
+           familyi={W\bibinitperiod},
+           given={Kara},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2f301536c9cd620e39deb5fad8712ff}{%
+           family={Yutani},
+           familyi={Y\bibinitperiod},
+           given={Hiroaki},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58d7fbe583cb4b374cd13e530baf3581}{%
+           family={Dunnington},
+           familyi={D\bibinitperiod},
+           given={Dewey},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6fd1c3a7a96a92d4abb802bdc3b4b5c}{%
+           family={{van den Brand}},
+           familyi={v\bibinitperiod},
+           given={Teun},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d9f6737095f765137a25d964be12f803}
+      \strng{fullhash}{5833e74fd37cda44d707672c3a9eb58a}
+      \strng{fullhashraw}{5833e74fd37cda44d707672c3a9eb58a}
+      \strng{bibnamehash}{d9f6737095f765137a25d964be12f803}
+      \strng{authorbibnamehash}{d9f6737095f765137a25d964be12f803}
+      \strng{authornamehash}{d9f6737095f765137a25d964be12f803}
+      \strng{authorfullhash}{5833e74fd37cda44d707672c3a9eb58a}
+      \strng{authorfullhashraw}{5833e74fd37cda44d707672c3a9eb58a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 3.5.2}
+      \field{title}{ggplot2: Create Elegant Data Visualisations Using the Grammar of Graphics}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://ggplot2.tidyverse.org
+      \endverb
+      \verb{url}
+      \verb https://ggplot2.tidyverse.org
+      \endverb
+    \endentry
+    \entry{R-dplyr}{manual}{}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=1d0f6977ce2d043e298a59a1cd75b7ef}{%
+           family={Wickham},
+           familyi={W\bibinitperiod},
+           given={Hadley},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bd2c624a8715b2aeffcecaa24f3d017}{%
+           family={François},
+           familyi={F\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4caae9be043b32573c94b11203a4a2fe}{%
+           family={Henry},
+           familyi={H\bibinitperiod},
+           given={Lionel},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1435ca4f08e53208e1c34297357afa80}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Kirill},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=858f3a61393526cfc73cb860925a277a}{%
+           family={Vaughan},
+           familyi={V\bibinitperiod},
+           given={Davis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{70387b9b8856ad25c560b7bbafd23ddf}
+      \strng{fullhash}{bb08bfc9d8f14760ac7a6c241486e72c}
+      \strng{fullhashraw}{bb08bfc9d8f14760ac7a6c241486e72c}
+      \strng{bibnamehash}{70387b9b8856ad25c560b7bbafd23ddf}
+      \strng{authorbibnamehash}{70387b9b8856ad25c560b7bbafd23ddf}
+      \strng{authornamehash}{70387b9b8856ad25c560b7bbafd23ddf}
+      \strng{authorfullhash}{bb08bfc9d8f14760ac7a6c241486e72c}
+      \strng{authorfullhashraw}{bb08bfc9d8f14760ac7a6c241486e72c}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{R package version 1.1.4}
+      \field{title}{dplyr: A Grammar of Data Manipulation}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://dplyr.tidyverse.org
+      \endverb
+      \verb{url}
+      \verb https://dplyr.tidyverse.org
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
