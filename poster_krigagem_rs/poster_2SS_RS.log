@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.9.16)  22 SEP 2025 19:35
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2025.9.16)  22 SEP 2025 20:48
  restricted system commands enabled.
 **poster_2SS_RS
 (./poster_2SS_RS.tex
@@ -2039,18 +2039,18 @@ Package logreq Info: Writing requests to 'poster_2SS_RS.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  47559 strings out of 475512
- 305617,2373549 words of node,token memory allocated
- 75197 words of node memory still in use:
-   355 hlist, 39 vlist, 24 rule, 813 disc, 56 local_par, 61 math, 1552 glue, 351
- kern, 242 penalty, 5764 glyph, 1948 attribute, 97 glue_spec, 976 attribute_list
+ 305623,2373549 words of node,token memory allocated
+ 76950 words of node memory still in use:
+   357 hlist, 39 vlist, 24 rule, 833 disc, 56 local_par, 61 math, 1587 glue, 358
+ kern, 242 penalty, 5937 glyph, 1956 attribute, 97 glue_spec, 980 attribute_list
 , 33 write, 94 pdf_literal, 10 pdf_start_link, 10 pdf_end_link, 15 pdf_dest, 10 
 pdf_action, 224 pdf_colorstack, 5 pdf_setmatrix, 5 pdf_save, 5 pdf_restore nodes
 
-   avail lists: 1:3,2:814,3:1299,4:816,5:1098,6:180,7:22659,8:65,9:1487,10:34,11
-:2471
+   avail lists: 1:3,2:814,3:1299,4:816,5:1119,6:180,7:23283,8:65,9:1493,10:35,11
+:2531
  69197 multiletter control sequences out of 65536+600000
  124 fonts using 8614223 bytes
- 128i,20n,116p,729b,2139s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,20n,116p,912b,2139s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips
 /lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/tex
 mf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
@@ -2062,7 +2062,7 @@ c/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/l
 m/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on poster_2SS_RS.pdf (1 page, 1035684 bytes).
+Output written on poster_2SS_RS.pdf (1 page, 1035867 bytes).
 
 PDF statistics: 119 PDF objects out of 1000 (max. 8388607)
  88 compressed objects within 1 object stream
